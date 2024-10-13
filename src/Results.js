@@ -8,19 +8,17 @@ export default function Results(props) {
     return (
       <div className="Results">
         <h2>{props.results.word}</h2>
-        <Phonetic phonetic={Phonetic} />
         {props.results.phonetics.map(function (phonetic, index) {
           return (
             <div key={index}>
-              <Phonetic phonetic={phonetic} />
+              <Phonetic phonetic={phonetic.phonetic} />
             </div>
           );
         })}
-        <Meaning meaning={Meaning} />
         {props.results.meanings.map(function (meaning, index) {
           return (
             <div key={index}>
-              <Meaning meaning={meaning} />
+              <Meaning meaning={meaning.definitions.definition} />
             </div>
           );
         })}

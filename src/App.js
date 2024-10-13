@@ -9,13 +9,21 @@ export default function App() {
         <header className="App-header">
           <h1 className="logo">My Search Engine!!</h1>
             <main>
-              <Dictionary />
+              <Dictionary defaultKeyword="sunset" />
             </main>
         </header>
         <footer className="App-footer">
-          Coded by Rebecca Thombs
+            This project was coded by{" "}
+          <a href="https://github.com/x0xBecka26x0x" target="_blank" rel="noreferrer"> Rebecca Thombs</a>{" "}
+            is open-sourced on{" "}
+          <a href="https://github.com/x0xBecka26x0x/Weather-Application" target="_blank" rel="noreferrer"> Github</a>{" "} 
+            and hosted on{" "}<a href="#" target="_blank" rel="noreferrer"> Netlify! </a>
         </footer>
       </div>
     </div>
   );
 }
+
+
+
+

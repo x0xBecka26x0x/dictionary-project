@@ -17,7 +17,7 @@ export default function App() {
           <a href="https://github.com/x0xBecka26x0x" target="_blank" rel="noreferrer"> Rebecca Thombs</a>{" "}
             is open-sourced on{" "}
           <a href="https://github.com/x0xBecka26x0x/Weather-Application" target="_blank" rel="noreferrer"> Github</a>{" "} 
-            and hosted on{" "}<a href="#" target="_blank" rel="noreferrer"> Netlify! </a>
+            and hosted on{" "}<a href="https://app.netlify.com/sites/dictionary-project062689/overview" target="_blank" rel="noreferrer"> Netlify! </a>
         </footer>
       </div>
     </div>

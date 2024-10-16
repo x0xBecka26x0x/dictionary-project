@@ -1,9 +1,8 @@
 .Photos img {
   border-radius: 15px;
   max-width: 300px;
-  padding: 5px;
+  padding: 10px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
-

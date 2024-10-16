@@ -20,6 +20,7 @@
 .Dictionary input {
     background: white;
     width: 100%;
+    border-radius: 6px;
     padding: 3px 2%;
     color: #333;
     border: 1px solid #ddd;

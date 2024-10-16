@@ -18,6 +18,7 @@
 }
 
 .Dictionary input {
+    background: white;
     width: 100%;
     padding: 3px 2%;
     color: #333;
@@ -27,4 +28,13 @@
 .Dictionary .hint {
     font-size: 11px;
     margin-top: 5px;
+}
+
+
+.Dictionary .results {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.6);
+    margin: 20px 0;
 }
